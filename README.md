@@ -1,2 +1,2 @@
 # protejo-loja
-uma loja de roupa 
+uma loja de rock
