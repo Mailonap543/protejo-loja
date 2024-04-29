@@ -1,33 +1,22 @@
 package com.loja.rock.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
 public class ClienteModel {
+	private Long id;
+	private String nome;
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private long id;
-  private String nome;
+	public String getNome() {
+		return nome;
+	}
 
-  public long getId() {
-    return id;
-  }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-  public void setId(long id) {
-    this.id = id;
-  }
+	public Long getId() {
+		return id;
+	}
 
-  public String getNome() {
-    return nome;
-  }
-
-  public void setNome(String nome) {
-    this.nome = nome;
-  }
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
-
-

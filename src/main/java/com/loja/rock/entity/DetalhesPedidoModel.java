@@ -1,37 +1,44 @@
 package com.loja.rock.entity;
 
 public class DetalhesPedidoModel {
+private Long id;
+private Long idPedido;
+private Long idProduto;
+private int quantidade;
 
-  private long idPedido;
-  private long idProduto;
-  private int quantidade;
+public double calcularTotal() {
+	return 0;
+}
 
-  public long getIdPedido() {
-    return idPedido;
-  }
+public Long getId() {
+	return id;
+}
 
-  public void setIdPedido(long idPedido) {
-    this.idPedido = idPedido;
-  }
+public void setId(Long id) {
+	this.id = id;
+}
 
-  public long getIdProduto() {
-    return idProduto;
-  }
+public Long getIdPedido() {
+	return idPedido;
+}
 
-  public void setIdProduto(long idProduto) {
-    this.idProduto = idProduto;
-  }
+public void setIdPedido(Long idPedido) {
+	this.idPedido = idPedido;
+}
 
-  public int getQuantidade() {
-    return quantidade;
-  }
+public Long getIdProduto() {
+	return idProduto;
+}
 
-  public void setQuantidade(int quantidade) {
-    this.quantidade = quantidade;
-  }
+public void setIdProduto(Long idProduto) {
+	this.idProduto = idProduto;
+}
 
-  public int calcularTotal(){
-    //TODO: IMPLEMENTAR ESSA FUNÇÃO
-    return 0;
-  }
+public int getQuantidade() {
+	return quantidade;
+}
+
+public void setQuantidade(int quantidade) {
+	this.quantidade = quantidade;
+}
 }
