@@ -1,6 +1,5 @@
 package com.loja.rock.service;
 
-
 import com.loja.rock.entity.ClienteModel;
 
 public class ClienteService {
@@ -19,5 +18,3 @@ public class ClienteService {
 	}
     
 }
-
-
